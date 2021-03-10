@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+html, body {
+  background: #1f1f1e;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  
+}
+
+.slider {
+  margin: 0 auto;
+  
+}
+
+.slide_viewer {
+  height: 550px;
+  overflow: hidden;
+  position: relative;
+}
+
+.slide_group {
+  height: 100%;
+  position: relative;
+  width: 100%;
+}
+
+.slide {
+  display: none;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+}
+.e1 img{
+  position: absolute;
+  z-index: 1;
+  align-items: center;
+  bottom: -1.5em;
+  left: 25%;
+}
+.e1 h2{
+  color: #131a00;
+  text-align: center;
+  padding: .5em;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 4em;
+}
+.e1 p {
+  color: #000000;
+  text-align: center;
+  font-family: 'Montserrat';
+  font-size: 2em;
+  z-index: 10;
+}
+
+.e2 img{
+  position: absolute;
+  zoom: 120%;
+  align-items: center;
+  bottom: -1.5em;
+  right: 0;
+}
+.e2 h2{
+  color: #d6f581;
+  text-align: left;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 4em;
+}
+.e2 p {
+  color: #edffbd;
+  text-align: left;
+  font-family: 'Montserrat';
+  font-size: 1.5em;
+  padding-left: .5em;
+  
+}
+
+.e3 img{
+  position: absolute;
+  
+  align-items: center;
+  bottom: -1.5em;
+  right: 0;
+}
+.e3 h2{
+  color: #d6f581;
+  text-align: left;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 4em;
+}
+.e3 p {
+  color: #edffbd;
+  text-align: left;
+  font-family: 'Montserrat';
+  font-size: 1.5em;
+  padding-left: .5em;
+  
+}
+.e4 img{
+  position: absolute;
+  
+  align-items: center;
+  bottom: -1.5em;
+  right: 0;
+}
+.e4 h2{
+  color: #d6f581;
+  text-align: left;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 4em;
+}
+.e4 p {
+  color: #edffbd;
+  text-align: left;
+  font-family: 'Montserrat';
+  font-size: 1.5em;
+  padding-left: .5em;
+}
+.slide:first-child {
+  display: block;
+}
+
+.slide:nth-of-type(1) {
+  background: #afeb4f;
+}
+
+.slide:nth-of-type(2) {
+  background: #07ad7b;
+}
+
+.slide:nth-of-type(3) {
+  background: #02b346;
+}
+
+.slide:nth-of-type(4) {
+  background: #002413;
+}
+
+.slide_buttons {
+  left: 0;
+  position: absolute;
+  right: 0;
+  text-align: center;
+}
+
+a.slide_btn {
+  color: #474544;
+  font-size: 42px;
+  margin: 0 0.175em;
+  -webkit-transition: all 4s ease-in-out;
+  -moz-transition: all 4s ease-in-out;
+  -ms-transition: all 4s ease-in-out;
+  -o-transition: all 4s ease-in-out;
+  transition: all 10s ease-in-out;
+}
+
+.slide_btn.active, .slide_btn:hover {
+  color: #23f3d7;
+  cursor: pointer;
+}
+
+.directional_nav {
+  height: 340px;
+  margin: 0 auto;
+  max-width: 940px;
+  position: relative;
+  top: -340px;
+}
+
+.previous_btn {
+  bottom: 0;
+  left: 100px;
+  margin: auto;
+  position: absolute;
+  top: 0;
+}
+
+.next_btn {
+  bottom: 0;
+  margin: auto;
+  position: absolute;
+  right: 100px;
+  top: 0;
+}
+
+.previous_btn, .next_btn {
+  cursor: pointer;
+  height: 65px;
+  opacity: 0.5;
+  -webkit-transition: opacity 0.4s ease-in-out;
+  -moz-transition: opacity 0.4s ease-in-out;
+  -ms-transition: opacity 0.4s ease-in-out;
+  -o-transition: opacity 0.4s ease-in-out;
+  transition: opacity 0.4s ease-in-out;
+  width: 65px;
+}
+
+.previous_btn:hover, .next_btn:hover {
+  opacity: 1;
+}
+
+@media only screen and (max-width: 767px) {
+  .previous_btn {
+    left: 50px;
+  }
+  .next_btn {
+    right: 50px;
+  }
+}
