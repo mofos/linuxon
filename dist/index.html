@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - ScrollTrigger - Highlight Text</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+<link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<header>
+  <div class="wrapper">
+    <label>Style:</label>
+    <select id="highlight-style">
+      <option>background</option>
+      <option>half</option>
+      <option>underline</option>
+    </select>
+  </div>
+  <div class="wrapper">
+    <input type="checkbox" id="mode" />
+    <label for="mode">Dark Mode</label>
+  </div>
+</header>
+
+<main>
+  <h1>What is Linux</h1>
+  <p>Linux is recognised as one of the best operating system in the world because of its simplicity, its ability to run on different machines, open standard design. If we compare Linux with Windows, Linux is more reliable, secure and cheap.</p>
+
+  <h1>Files</h1>
+
+  <p>Linux System Architecture. The Linux Operating System's architecture primarily has these components: the Kernel, Hardware layer, System library, Shell, and System utility. 1). The kernel is the core part of the operating system, which is responsible for all the major activities of the LINUX operating system</p>
+
+  <h2>Lets learn about the file structure with some commands.<mark class="text-highlight">Follow along the instructions in this lesson. </mark>
+  </h2>
+
+
+  <p>Now for your first command type the command twice  
+    </p>
+
+    <div class="code"><mark class="text-highlight">.. cd</mark></div>
+
+  <p>Now to see the files around you type</p>
+
+  <div class="code"><mark class="text-highlight">ls</mark></div>
+
+    <p>And finally to open the files type this</p>
+    <div class="code"><mark class="text-highlight">cd file-name </mark></div>
+
+  <p>Linux File Structure is like a <mark class="text-highlight">Tree File Structure</mark>
+    and the command 'cd' lets you move into or out of a file, the '.. cd' lets you go back and 'cd filename' lets you in a file directory. To see all the files in a directory type 'ls' that lets you list all the files in the directory but these are not enough to open specific filetype. so lets look in to CAT and VI Editor.</p>
+
+    <h1>CAT</h1>
+
+    <p>Type this to clear all the clutter above</p>
+
+    <div class="code"><mark class="text-highlight">clear</mark></div>
+
+    <p>The 'cat' command can create,display and copy files.this becomes very useful to write code or to leave messageto people. Some people can write entire programs without the help of code Editiors. Lets look at some commands. 
+    </p>
+
+    <p>Creating a file or copying thr file remember to use '>'.Create Command is given below!  
+    </p>
+
+    <div class="code"><mark class="text-highlight">cat > filename</mark></div>
+
+    <p>To look at text files use type cat and the filename with nothing in between. it will display the text in the file.   
+    </p>
+
+    <div class="code"><mark class="text-highlight">cat filename</mark></div>
+
+    <p>now to coppy use this command where the original filetype is first and the copy file type is second 
+    </p>
+
+    <div class="code"><mark class="text-highlight">cat file1 > file2</mark></div>
+
+  <p>How do I check free disk space in Linux operating system? UNIX offers two commands for checking out free disk space: <mark class="text-highlight"> df command Report file system disk space usage. du command: Estimate file space usage.</mark></p>
+  <img src="./image2.png" alt="">
+
+  <h1>Vi Editor </h1>
+
+  <p>
+    To make a txt file 
+    Type the ‘vi ‘ command with  a file name  like its givin below and then the vi cmd open’s up that let you type what you want. After typing press escape and type the next command ‘:wq’. Now to check type cat filename.</p>
+
+    <img src="./image.png" alt="">
+
+    <h1>UNAME</h1>
+
+  <p>We will explain the “uname” command that you can use on your Linux operating system. With this command, you can get the kernel information and processor information of the system you are using.The uname command is one of the commands you can use about your system.Try typeing the command below and then some with the options.</p>
+
+  <div class="code"><mark class="text-highlight">uname --help</mark></div>
+
+  <img src="./image3.png" alt="" srcset="" style="padding: 2em;">
+
+  <h1>WHY Linux for CyberSecurity ?</h1>
+
+  <p>Linux plays an incredibly important part in the job of a cybersecurity professional. Specialized Linux distributions such as Kali Linux are used by cybersecurity professionals to perform in-depth penetration testing and vulnerability assessments, as well as provide forensic analysis after a security breach.Moreover, <mark class="text-highlight">Linux is the operating system used on most network devices and security appliances</mark>, including routers, firewalls, next-generation firewall (NGFW) devices, unified threat management (UTM) gateways, virtual private network (VPN) concentrators, intrusion detection systems (IDS), intrusion protection systems (IPS), security information and event management (SIEM) appliances, wireless access point (WAP) devices, and more. Consequently, to collect security-related data from these devices or perform security hardening, you must first understand Linux.</p>
+
+
+</main>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.1/gsap.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.1/ScrollTrigger.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
