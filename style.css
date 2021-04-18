@@ -6,6 +6,12 @@ body
   background-color: #000000;
 }
 
+.code{
+  display: flex;
+  width: 100vh;
+}
+
+
 .container{
   padding-bottom: 12em;
 }
@@ -17,6 +23,8 @@ body
   background: #000000;
   border-collapse: collapse;
   padding: 2em;
+  width: 100vh;
+  
 }
 
 .head{
@@ -31,19 +39,19 @@ body
 }
 
 .row2{
-  color: white;
+  color: rgb(161, 255, 211);
 }
 
 .row3{
   color: white;
   padding-top: 1em;
+  height: auto;
+  width: fit-content;
 }
 
 .img1{
-position: absolute;
-right: 0em;
-height: 20em;
 
+right: 0em;
 
 }
 
@@ -57,16 +65,40 @@ padding: 2em;
   text-align: center;
 }
 
-@media only screen and (max-width: 800px) {
+@media (max-width:700px) 
+
+ {
+
   .container{
     height: 100em;
   }
-  .row3{
-  position: relative;
-  top: 50em;
-  padding: 2em;
-  display: none;
+
+  .code{
+    display: block;
   }
+  
+  .terminal {
+    border: 5px solid rgb(49, 49, 49);
+    font-family: courier,fixed,swiss,monospace,sans-serif;
+    font-size: 18px;
+    color: #bbbbbb;
+    background: #000000;
+    border-collapse: collapse;
+    padding: 2em;
+    width: 0;
+    
+  }
+  .row3{
+    
+
+  }
+
+  .img1{
+
+    
+ 
+  }
+  
 
 
 }

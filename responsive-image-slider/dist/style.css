@@ -4,9 +4,10 @@ html, body {
   height: 100%;
   margin: 0;
   padding: 0;
-  width: 100%;
+  width: 100vh;
   
 }
+
 
 .slider {
   margin: 0 auto;
