@@ -1,5 +1,5 @@
 
-# WAP Project 2021 	:computer::satisfied:
+#Linux Emulator	:computer::satisfied:
 
 Linux Running on Browser with the Power of OpenSource and Credits to copy for Jor1k.js to make an emulator that runs the lunixOS on `JavaScript` 
 
