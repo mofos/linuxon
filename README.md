@@ -1,44 +1,21 @@
 
-# WAP Project 2021 	:books::computer::laughing::satisfied:
+# WAP Project 2021 	:computer::satisfied:
 
-Hi, Web-application for pen-testing  is a Learning application and CyberSecurity Awareness Project that serves the purpose to educate people and provide access to tools, materials, and even an online Operating system :wink: 
+Linux Running on Browser with the Power of OpenSource and Credits to copy for Jor1k.js to make an emulator that runs the lunixOS on `JavaScript` 
 
-We, the creators of this project, hope for everyone to gain knowledge and experience to take a step forward in the field of computer science  
+Open [https://linuxonline.netlify.app/](LinuxOnline) with your browser to see the result.
+Currently Supported in all devices but is not rsponsive so Document componet may overlap
 
-## Getting Started
+## Original Inspiration
 
-nice
+OpenRISC OR1K Javascript Emulator Running Linux With Network Support [https://s-macke.github.io/jor1k/demos/main.html?user=qfkvvX2IEv&cpu=asm&n=1&relayURL=wss%3A%2F%2Frelay.widgetry.org%2F](Linux on Browser)
 
-First, run the development server:
+## Interated Projects that use this code 
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+Open [https://wapenetrationtesting.netlify.app/](WAP: Learning Made Easy) 
 
-if you recive any error then you have to install node modules:
-
-```bash
-npm install
-
-```
-for more detail check out this [https://stackoverflow.com/questions/65446047/error-module-not-found-whenever-i-try-to-run-npm-run-dev-using-next-js](StackOver npm Error Solution)
+A CyberSecurity Project To Spread Awareness on Security Vunerability. For More CheckOut[https://github.com/wabdeali/final-project-frontend](Wabdeali and our Colab Work!!).
 
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+\
