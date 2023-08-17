@@ -28,7 +28,7 @@
   box-sizing: border-box;
 }
 
-body {
+main {
   font-family: "Lora", sans-serif;
   font-weight: 400;
   color: var(--color-text);
@@ -37,9 +37,9 @@ body {
 }
 
 header {
-  display: flex;
+  display: block;
   justify-content: space-between;
-  position: fixed;
+  position: relative;
   top: 0;
   left: 0;
   right: 0;
@@ -58,7 +58,7 @@ header .wrapper > * + * {
   margin-left: 4px;
 }
 
-select {
+main select {
   font-family: inherit;
   font-size: 16px;
 }
@@ -71,16 +71,18 @@ main {
   margin: 12rem auto;
   padding: 0 var(--padding);
   max-width: var(--page-width);
+  display: block;
+  position: relative;
 }
 
-h1 {
+main h1 {
   font-size: var(--header-font-size);
   font-weight: 700;
   line-height: 1.2;
   margin-bottom: 4rem;
 }
 
-p {
+main p {
   margin: 2rem 0;
   font-size: var(--paragraph-font-size);
   line-height: 1.7;
@@ -128,8 +130,8 @@ p {
   content: " [highlight end] ";
 }
 
-.code{
+main .code{
   font-size: 2em;
-  text-align: center;
   padding: .5em;
 }
+
